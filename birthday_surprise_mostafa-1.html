@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffeaf1">
+<title>عيد ميلاد سعيد مصطفى 💗</title>
+<style>
+:root{--pink:#f47fa6;--deep:#873b61;--pale:#fff4f8;--gold:#e7b85f}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#66334d;background:radial-gradient(circle at 15% 12%,#ffe0eb,transparent 30%),radial-gradient(circle at 90% 75%,#f5d9ee,transparent 35%),linear-gradient(145deg,#fff9fb,#ffeaf2);overflow-x:hidden}
+.wrap{width:min(100%,760px);margin:auto;padding:34px 16px 70px}
+.panel{position:relative;text-align:center;margin:24px auto;padding:32px 22px;background:#ffffffd9;border:1px solid #fff;border-radius:28px;box-shadow:0 16px 50px #9f4c7020;overflow:hidden}
+.panel h1,.panel h2{color:#963d68}
+.kicker{display:inline-block;background:#ffe5ee;color:#a44c73;border-radius:99px;padding:7px 15px;font-size:13px}
+h1{font-size:clamp(28px,7vw,43px);margin:18px 0 8px}
+h2{font-size:clamp(24px,6vw,34px);margin:8px 0 16px}
+p{font-size:17px;line-height:2;margin:12px 0}
+.muted{color:#a36c86;font-size:14px}
+button{border:0;border-radius:18px;padding:14px 22px;background:linear-gradient(135deg,#fa8bb0,#d85b91);color:white;font-size:16px;font-weight:750;box-shadow:0 8px 20px #d85b9138;cursor:pointer;margin-top:15px;transition:transform .2s}
+button:active{transform:scale(.96)}
+.hidden{display:none!important}
+.envelope{font-size:100px;line-height:1.3;margin:18px 0;filter:drop-shadow(0 10px 12px #d87da433);animation:float 2.4s ease-in-out infinite}
+.letter{background:#fff8fb;border:1px dashed #e9a1bc;border-radius:20px;padding:20px 18px;margin-top:22px;text-align:right;animation:rise .8s ease}
+.letter p{white-space:pre-line}
+.divider{height:1px;background:linear-gradient(90deg,transparent,#efb2c8,transparent);margin:24px 0}
+.wish-icon{font-size:64px;animation:float 2.5s infinite}
+.cake{font-size:112px;line-height:1.3;margin:12px auto 0;filter:drop-shadow(0 8px 12px #c46a8c30)}
+.candle{display:inline-block;font-size:32px;transform-origin:50% 100%;transition:.4s}
+.flame{display:inline-block;color:#ffb52e;text-shadow:0 0 12px #ffb52e;animation:flicker .5s infinite alternate}
+.flame.off{opacity:0;transform:scale(.1) translateY(10px)}
+.final-heart{font-size:55px;animation:beat 1.2s infinite}
+.sparkle{position:absolute;color:#e8a2bd;animation:twinkle 1.8s infinite alternate}
+.s1{top:20px;left:22px}.s2{top:90px;right:22px;animation-delay:.6s}.s3{bottom:20px;left:30px;animation-delay:1s}
+.heart{position:fixed;bottom:-30px;pointer-events:none;animation:up linear forwards;z-index:5}
+@keyframes up{to{transform:translateY(-110vh) rotate(30deg);opacity:0}}
+@keyframes float{50%{transform:translateY(-9px) rotate(2deg)}}
+@keyframes rise{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:none}}
+@keyframes flicker{to{transform:scale(1.12) rotate(3deg);opacity:.8}}
+@keyframes twinkle{to{transform:scale(1.5) rotate(20deg);opacity:.35}}
+@keyframes beat{50%{transform:scale(1.13)}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section class="panel" id="start">
+<span class="sparkle s1">✦</span><span class="sparkle s2">✧</span><span class="sparkle s3">♡</span>
+<span class="kicker">عندي ليك واحد الحاجة صغيرة 💗</span>
+<div class="envelope" id="env">💌</div>
+<h1>هاي صديقي! 👋🏻</h1>
+<p>واش ممكن ناخد من وقتك غير شوية؟<br>
+حضّرت ليك واحد المفاجأة صغيرة بمناسبة عيد ميلادك، وبغيتك تعيشها مرحلة بمرحلة.<br>
+ما تستعجلش، وقرا كل حاجة حتى تسالي…</p>
+<button id="open">يلا، فكّ الظرف 💌</button>
+<div class="letter hidden" id="letter">
+<p>عيد ميلاد سعيد مصطفى، كنتمنى ليك عام زوين وكله فرحة إن شاء الله.
+
+وبغيت نقوليك أنك إنسان تعلمت معاه بزاف ديال الحاجات الزوينين، ومن بينها صداقتي بيك، وخا نتا مكتامنش بيها وسالات، ولكن بصح كنتمنى ليك أي حاجة فيها الخير، ونشوفك فأعلى المراتب إن شاء الله، ومحقق قاع داكشي اللي فبالك. 💗</p>
+</div>
+<button class="hidden" id="toWish">طلع شوية، باقي مفاجأة أخرى ✨</button>
+</section>
+
+<section class="panel hidden" id="wish">
+<span class="kicker">أمنية من القلب</span>
+<div class="wish-icon">🌟</div>
+<h2>شنو كنتمنى ليك؟</h2>
+<div class="letter">
+<p>كنتمنى مع بداية عمر جديد ليك، أي حاجة كانت فبالك العام اللي فات باش تحققها وما حققتيهاش، بإذن الله تحققها هاد العام. وإلا ما تحققاتش هاد العام، راه العمر باقي قدامك، وإن شاء الله تحقق كلشي اللي فبالك. 💗</p>
+</div>
+<button id="toCake">هبط شوية، كاينة حاجة أخرى 🎂</button>
+</section>
+
+<section class="panel hidden" id="cake">
+<span class="kicker">لحظة عيد الميلاد 🎂</span>
+<h2>هادي الكيكة ديالك!</h2>
+<div class="cake">🎂</div>
+<p>كنتمنى تقبل مني هاد الكيكة الإلكترونية، كنتمنى لو كانت واقعية ولكن ما كاينش كيفاش 😂 تستاهل كل خير.</p>
+<p><strong>دابا غمّض عينيك وتمنى أمنية من قلبك…</strong></p>
+<div style="font-size:42px;margin:10px">🕯️<span class="candle"><span class="flame" id="flame">🔥</span></span></div>
+<button id="blow">طفي الشمعة 🕯️</button>
+<p class="muted hidden" id="blown">تمنّيتي؟ إن شاء الله تتحقق أمنيتك 🤍</p>
+<button class="hidden" id="toFinal">هبط لتحت، باقي كلمتي الأخيرة ❤️</button>
+</section>
+
+<section class="panel hidden" id="final">
+<span class="kicker">وقبل ما تسالي المفاجأة…</span>
+<div class="final-heart">❤️</div>
+<h2>كلمتي الأخيرة ليك</h2>
+<div class="letter">
+<p>يمكن ما نلقاش ديما الكلمات اللي توصف شحال كتستاهل من الخير، ولكن بغيتك تعرف بلي كاين شي حد كيتمنى يشوفك ديما بخير وفرحان. وخا افتارقات دروبنا ك اصدقاء اتبقا معزتك في قلبي وبلاصتك بوحدها ومعاملتك ليا فواحد وقت معمرني نساها ف جابتها مناسبة عيد ميلادك اني نشكرك على اي حاجة زوينة درتيها معايا  وشحال من مرة كتطلعلي المورال وكنعتادر على اي حاجة درتها لك من قبل ولا شي نهار ضحكت معك وقلقتك ولا صدعتك شي نهار  ونتا ماباغيش تهضر ف كنعتادر راه ربي لي عارف بلاصتك عندي ومعزتك عندي فكنتمنى لك كل خير انشاءالله</p>
+</div>
+<p style="font-weight:750;color:#963d68">كل عام وأنت بخير مصطفى 🎂❤️</p>
+</section>
+<p class="muted" style="text-align:center">تصايبات ليك بكل محبة 💗</p>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+function reveal(id){$(id).classList.remove('hidden');setTimeout(()=>$(id).scrollIntoView({behavior:'smooth',block:'center'}),120)}
+function hearts(n=18){for(let i=0;i<n;i++){setTimeout(()=>{const h=document.createElement('div');h.className='heart';h.textContent=['♡','💗','♥','✨'][Math.floor(Math.random()*4)];h.style.left=Math.random()*100+'vw';h.style.fontSize=(16+Math.random()*22)+'px';h.style.animationDuration=(4+Math.random()*3)+'s';document.body.appendChild(h);setTimeout(()=>h.remove(),7500)},i*100)}}
+$('open').addEventListener('click',()=>{$('env').textContent='💌';$('letter').classList.remove('hidden');$('open').classList.add('hidden');reveal('toWish');hearts(22)});
+$('toWish').addEventListener('click',()=>reveal('wish'));
+$('toCake').addEventListener('click',()=>reveal('cake'));
+$('blow').addEventListener('click',()=>{$('flame').classList.add('off');$('blow').classList.add('hidden');$('blown').classList.remove('hidden');reveal('toFinal');hearts(30)});
+$('toFinal').addEventListener('click',()=>{reveal('final');hearts(35)});
+</script>
+</body>
+</html>
